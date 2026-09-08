@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+    <div align="center">
+        <h2><font color="#D02090">Phiếu đăng ký tham<br>gia chương trình khuyến mãi</font></h2>
+        <form>
+            <table border="1" bordercolor="#D02090" bgcolor="#FAFAFA" width="450" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td width="40%">Họ và tên</td>
+                    <td><input type="text" size="30" value="Nguyễn Ngọc Quỳnh Nga"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" size="30" value="2Bia Hùng Vương, Q10"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text" size="30" value="0909097506"></td>
+                </tr>
+                <tr>
+                    <td>Phái</td>
+                    <td>
+                        <input type="radio" name="phai" value="Nam"> Nam
+                        <input type="radio" name="phai" value="Nữ" checked> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select>
+                            <option>Bác sĩ</option>
+                            <option>Kỹ sư</option>
+                            <option selected>Giáo viên</option>
+                            <option>Khác</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn sản phẩm tham gia</td>
+                    <td>
+                        <!-- Thuộc tính size=4 và multiple để chọn nhiều dòng -->
+                        <select size="4" multiple>
+                            <option>Kem đánh răng</option>
+                            <option>Bột giặt</option>
+                            <option selected>Dầu gội đầu</option>
+                            <option selected>Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số người dự đoán tham gia</td>
+                    <td><input type="text" size="30" value="250000"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Đồng ý">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <font color="#FF0000"><b>Bạn đã đăng ký thành công!!!</b></font>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

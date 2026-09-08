@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Tạo form và các điều khiển (tt)</title>
+</head>
+<body>
+    <div align="center">
+        <h2><font color="#0000FF">Đăng ký du lịch</font></h2>
+        <form>
+            <table border="1" bordercolor="#0000FF" bgcolor="#E6F0FF" width="550" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td width="35%">Họ và tên</td>
+                    <td><input type="text" size="35" value="Phạm Ngọc Cẩm Đào"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" size="35" value="1227 Nguyễn Văn Cừ"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text" size="35" value="8351056"></td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td><input type="checkbox" checked></td>
+                </tr>
+                <tr>
+                    <td>Chọn tour</td>
+                    <td>
+                        <select>
+                            <optgroup label="Miền Bắc">
+                                <option>Hà Nội - Hạ Long - Sapa</option>
+                                <option>Hà Nội - Chùa Hương - Ninh Bình</option>
+                            </optgroup>
+                            <optgroup label="Miền Trung">
+                                <option>Huế - Bạch Mã - Đà Nẵng</option>
+                                <option>Nha Trang - Đà Lạt</option>
+                                <option selected>Buôn mê thuột - Gia lai - Kontum</option>
+                            </optgroup>
+                            <optgroup label="Miền Nam">
+                                <option>TP.HCM - Cần Thơ - Cà Mau</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td>
+                        <input type="radio" name="pt" checked> Máy bay &nbsp;&nbsp;
+                        <input type="radio" name="pt"> Xe ô tô
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset style="width: 350px;">
+                            <legend align="left"><i><font color="#0000FF">Số lượng đoàn khách</font></i></legend>
+                            Người lớn <input type="text" size="10" value="16"> &nbsp;&nbsp;
+                            Trẻ em <input type="text" size="10" value="4">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú thêm</td>
+                    <td>
+                        <textarea rows="3" cols="40">Có 2 trẻ em dưới 6 tuổi&#13;&#10;Có 2 người ăn chay</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Đồng ý">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <font color="#FF0000"><b>Bạn đã đăng ký thành công!!!</b></font>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
